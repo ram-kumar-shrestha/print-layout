@@ -25,7 +25,7 @@ This project is a simple React component that demonstrates how to print content 
    ```
 3. Start the development server:
    ```bash
-   npm run start
+   npm run dev
    ```
 
 ## Usage
