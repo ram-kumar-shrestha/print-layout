@@ -1,0 +1,44 @@
+@import url("./print.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+}
+
+.content {
+  background-color: #eee;
+}
+
+button {
+  padding: 1em;
+  border-radius: 0.5em;
+  margin: 1em;
+}
+
+.page-container {
+  background: #fff;
+  width: 60vw;
+  margin: 2em auto;
+  .page {
+    padding: 1em;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      td,
+      th {
+        border: 1px solid #424242;
+        padding: 1em;
+      }
+    }
+  }
+}
+
+.print-only {
+  display: none;
+}
